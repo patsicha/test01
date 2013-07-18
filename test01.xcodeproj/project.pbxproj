@@ -17,12 +17,12 @@
 		1CD61A2B179053E700D9780E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD61A2A179053E700D9780E /* Default@2x.png */; };
 		1CD61A2D179053E700D9780E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD61A2C179053E700D9780E /* Default-568h@2x.png */; };
 		1CD61A30179053E700D9780E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD61A2E179053E700D9780E /* MainStoryboard.storyboard */; };
-		1CD61A33179053E700D9780E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD61A32179053E700D9780E /* ViewController.m */; };
 		1CD61A3B179053E700D9780E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD61A3A179053E700D9780E /* SenTestingKit.framework */; };
 		1CD61A3C179053E700D9780E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD61A16179053E600D9780E /* UIKit.framework */; };
 		1CD61A3D179053E700D9780E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD61A18179053E600D9780E /* Foundation.framework */; };
 		1CD61A45179053E700D9780E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CD61A43179053E700D9780E /* InfoPlist.strings */; };
 		1CD61A48179053E700D9780E /* test01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD61A47179053E700D9780E /* test01Tests.m */; };
+		1CD61A531790540A00D9780E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD61A521790540A00D9780E /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,14 +50,14 @@
 		1CD61A2A179053E700D9780E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1CD61A2C179053E700D9780E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1CD61A2F179053E700D9780E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1CD61A31179053E700D9780E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1CD61A32179053E700D9780E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1CD61A39179053E700D9780E /* test01Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test01Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD61A3A179053E700D9780E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		1CD61A42179053E700D9780E /* test01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test01Tests-Info.plist"; sourceTree = "<group>"; };
 		1CD61A44179053E700D9780E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CD61A46179053E700D9780E /* test01Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test01Tests.h; sourceTree = "<group>"; };
 		1CD61A47179053E700D9780E /* test01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test01Tests.m; sourceTree = "<group>"; };
+		1CD61A511790540A00D9780E /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1CD61A521790540A00D9780E /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +120,9 @@
 				1CD61A25179053E600D9780E /* AppDelegate.h */,
 				1CD61A26179053E600D9780E /* AppDelegate.m */,
 				1CD61A2E179053E700D9780E /* MainStoryboard.storyboard */,
-				1CD61A31179053E700D9780E /* ViewController.h */,
-				1CD61A32179053E700D9780E /* ViewController.m */,
 				1CD61A1D179053E600D9780E /* Supporting Files */,
+				1CD61A511790540A00D9780E /* FirstViewController.h */,
+				1CD61A521790540A00D9780E /* FirstViewController.m */,
 			);
 			path = test01;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			files = (
 				1CD61A23179053E600D9780E /* main.m in Sources */,
 				1CD61A27179053E600D9780E /* AppDelegate.m in Sources */,
-				1CD61A33179053E700D9780E /* ViewController.m in Sources */,
+				1CD61A531790540A00D9780E /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
